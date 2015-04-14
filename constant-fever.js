@@ -6,7 +6,7 @@ due += 8 * 24 * 3600e3; // eight days
 
 // duration.js:
 
-var DURATION = function() {
+var DURATION = (function() {
     self = {};
     self.MILLISECONDS_IN_SECOND = 1000;
     self.MILLISECONDS_IN_MINUTE = 60 * self.MILLISECONDS_IN_SECOND;
@@ -15,7 +15,7 @@ var DURATION = function() {
     self.MILLISECONDS_IN_MONTH  = 30 * self.MILLISECONDS_IN_DAY;
     self.MILLISECONDS_IN_YEAR   = 365 * self.MILLISECONDS_IN_MONTH;
     return self;
-};
+})();
 
 // myCode.js:
 
