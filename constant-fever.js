@@ -22,4 +22,4 @@ var DURATION = (function() {
 due += 8 * DURATION.MILLISECONDS_IN_DAY;
 
 // CONCLUSION: Rather than trying to explain conversion computation in the comments,
-// extract conversion constants and (re)use them across your codebase.
+// extract conversion constants and use them across your codebase.
