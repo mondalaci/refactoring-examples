@@ -20,3 +20,6 @@ var DURATION = (function() {
 // myCode.js:
 
 due += 8 * DURATION.MILLISECONDS_IN_DAY;
+
+// CONCLUSION: Rather than trying to explain conversion computation in the comments,
+// extract conversion numbers as constants and (re)use them across your codebase.
