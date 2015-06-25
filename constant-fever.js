@@ -1,8 +1,8 @@
-// LOUSY CODE:
+// instead of
 
 due += 8 * 24 * 3600e3; // eight days
 
-// SUPREME CODE:
+// simplify as
 
 // duration.js:
 
@@ -21,5 +21,6 @@ var DURATION = (function() {
 
 due += 8 * DURATION.MILLISECONDS_IN_DAY;
 
-// CONCLUSION: Rather than trying to explain conversion computation in the comments,
+// Conclusion:
+// Rather than trying to explain conversion computation in the comments,
 // extract conversion constants and use them across your codebase.
